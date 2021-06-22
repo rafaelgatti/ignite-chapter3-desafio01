@@ -1,1 +1,47 @@
-// TODO
+.banner {
+  margin: 2rem auto 0;
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  img {
+    max-height: 400px;
+  }
+}
+
+.post {
+  max-width: 700px;
+  margin: 3rem auto 0;
+
+  h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    color: var(--heading);
+  }
+
+  article {
+    margin: 3rem auto 0;
+
+    & + article {
+      margin: 3rem auto;
+    }
+
+    h2 {
+      font-size: 1.75rem;
+      font-weight: 700;
+      line-height: 2.125rem;
+      color: var(--heading);
+      margin-bottom: 2.5rem;
+    }
+
+    div {
+      font-size: 1rem;
+      font-weight: 400;
+      color: var(--body);
+      text-align: justify;
+    }
+  }
+}
+
+

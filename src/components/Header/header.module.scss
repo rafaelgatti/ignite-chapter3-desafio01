@@ -1,1 +1,18 @@
-// TODO
+.container {
+  height: 5rem;
+  margin-bottom: 4rem;
+
+  img {
+    transform: translateY(50%);
+  }
+}
+
+.content {
+  max-width: 700px;
+  height: 5rem;
+  margin: 0 auto;
+
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+}

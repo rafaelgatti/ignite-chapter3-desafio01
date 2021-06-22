@@ -1,1 +1,33 @@
-// TODO
+.post {
+  max-width: 700px;
+
+  display: flex;
+  flex-direction: column;
+  
+  margin-top: 3rem;
+
+  a {
+    strong {
+      font-size: 1.75rem;
+      font-weight: 700;
+  
+      line-height: 2.125rem;
+  
+      text-align: justify;
+    }
+  
+    p {
+      margin-top: 0.5rem;
+      color: var(--body);
+    }
+  }
+}
+
+.morePosts {
+  background: var(--background);
+  color: var(--highlight);
+
+  margin: 4rem auto;
+  border: 0;
+  
+}

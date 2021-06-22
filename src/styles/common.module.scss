@@ -1,1 +1,57 @@
-// TODO
+.container {
+  max-width: 700px;
+  margin: 0 auto 3rem;
+
+  strong {
+    color: var(--heading);
+  }
+
+  .info {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 1.5rem;
+
+    color: var(--info);
+
+    svg {
+      width: 20px;
+      height: 20px;
+    }
+
+    time {
+      display: flex;
+      align-items: center;
+
+      font-size: 0.875rem;
+
+      svg {
+        margin-right: 0.5rem;
+      }
+    }
+
+    .author {
+      display: flex;
+      align-items: center;
+
+      font-size: 0.875rem;
+
+      svg {
+        margin-left: 1.5rem;
+        margin-right: 0.5rem;
+      }
+    }
+
+    .time {
+      display: flex;
+      align-items: center;
+
+      font-size: 0.875rem;
+
+      svg {
+        margin-left: 1.5rem;
+        margin-right: 0.5rem;
+      }
+    }
+  }
+}
